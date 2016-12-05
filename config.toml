@@ -1,0 +1,8 @@
+baseurl = "https://ninkigumi.github.io/web-contents"
+languageCode = "ja"
+title = "チラシティ"
+disableHugoGeneratorInject = true
+hasCJKLanguage = true
+
+[Params]
+GoogleAnalytics = "UA-46259108-6"

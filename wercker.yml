@@ -1,0 +1,31 @@
+box:
+  id: ninkigumi/hugo
+  cmd: /bin/bash
+build:
+  steps:
+    - add-ssh-key:
+        keyname: site_config_chiracity
+        host: bitbucket.org
+    - add-to-known_hosts:
+        hostname: bitbucket.org
+        #fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
+        fingerprint: SHA256:zzXQOXSRBEiUtuE8AikJYKwbHaxvSc0ojez9YXaGp1A
+    - script:
+        name: git clone
+        code: |
+            git clone $site_config_chiracity_url
+            cp -rp chiracity-web/* .
+    - script:
+        name: hugo
+        code: |
+            hugo
+    - script:
+        name: html-minify
+        code: |
+            html-minifier -c html-minifier.conf --input-dir public --output-dir public
+deploy:
+  steps:
+    - lukevivier/gh-pages:
+        token: $GIT_TOKEN
+        domain: chira.city
+        basedir: public
