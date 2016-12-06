@@ -12,3 +12,5 @@ title = "チラシティ"
       <li>{{ .pdf }} {{ .thumnail }} </li>
   {{ end }}
 </ul>
+
+## テスト
