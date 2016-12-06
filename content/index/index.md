@@ -4,7 +4,6 @@ title = "チラシティ"
 +++
 # チラシティ
 
-{{% ad_csv sheetsid="10o9Lz438Qg2V8pjhotQdXpJ-nUYclL20cpo6InTv7Wg" %}}あいうえお
-{{% /ad_csv %}}
+{{% ad_csv %}}
 
 ## テスト3
