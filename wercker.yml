@@ -18,7 +18,6 @@ build:
     - script:
         name: download csv
         code: |
-            apk add --virtual build-dependencies build-base curl
             mkdir -p static/csv/
             curl -o static/csv/data.csv $csv_data_url
     - script:
