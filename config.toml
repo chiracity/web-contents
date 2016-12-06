@@ -1,4 +1,4 @@
-baseurl = "https://ninkigumi.github.io/web-contents"
+baseurl = "https://chira.city"
 languageCode = "ja"
 title = "チラシティ"
 disableHugoGeneratorInject = true
