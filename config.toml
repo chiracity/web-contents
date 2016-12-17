@@ -6,3 +6,4 @@ hasCJKLanguage = true
 
 [Params]
 GoogleAnalytics = "UA-46259108-6"
+GoogleCloudStrageBucket = "https://image.chira.city/"
