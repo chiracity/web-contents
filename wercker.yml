@@ -22,6 +22,10 @@ build:
             mkdir -p static/csv/
             curl -o static/csv/data.csv $csv_data_url
     - script:
+        name: csv2toml
+        code: |
+            bash csv2toml.sh
+    - script:
         name: hugo
         code: |
             hugo
