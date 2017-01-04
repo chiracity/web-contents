@@ -7,3 +7,11 @@ hasCJKLanguage = true
 [Params]
 GoogleAnalytics = "UA-46259108-6"
 GoogleCloudStrageBucket = "https://storage.googleapis.com/image.chira.city/"
+
+[Indexes]
+target = "targets"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+target = "targets"
