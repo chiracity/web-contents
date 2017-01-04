@@ -1,5 +1,5 @@
 box:
-  id: ninkigumi/hugo
+  id: ninkigumi/hugo-min-0.18
   cmd: /bin/bash
 build:
   steps:
