@@ -20,7 +20,7 @@ build:
         name: download csv
         code: |
             mkdir -p static/csv/
-            curl -o static/csv/data.csv $csv_data_url
+
     - script:
         name: csv2toml
         code: |
