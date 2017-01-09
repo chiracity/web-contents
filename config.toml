@@ -1,6 +1,6 @@
 baseurl = "https://chira.city"
 languageCode = "ja"
-title = "チラシティ"
+title = "チラシティ（モニター版）"
 disableHugoGeneratorInject = true
 hasCJKLanguage = true
 
