@@ -1,4 +1,4 @@
-baseurl = "https://chira.city"
+baseurl = "https://mc.chira.city"
 languageCode = "ja"
 title = "チラシティ（モニター版）"
 disableHugoGeneratorInject = true
