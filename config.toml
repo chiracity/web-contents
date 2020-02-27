@@ -1,11 +1,11 @@
 baseurl = "https://mc.chira.city"
 languageCode = "ja"
-title = "チラシティ（モニター版）"
+title = "チラシティまつど（βリリース）"
 disableHugoGeneratorInject = true
 hasCJKLanguage = true
 
 [Params]
-GoogleAnalytics = "UA-46259108-6"
+GoogleAnalytics = "UA-158119437-1"
 GoogleCloudStrageBucket = "https://image.chira.city/"
 #GoogleCloudStrageBucket = "https://storage.googleapis.com/image.chira.city/"
 
